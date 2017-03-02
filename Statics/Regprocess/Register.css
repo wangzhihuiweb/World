@@ -1,0 +1,47 @@
+header {
+	height: 0.88rem;
+	line-height: 0.88rem;
+	font-size: 0.34rem;
+	background: #d03b35;
+	color: #ffffff;
+	text-align: center;
+}
+
+section {
+	width: 6.85rem;
+	font-size: 0.32rem;
+	margin: auto auto 1.2rem auto;
+}
+
+section div {
+	height: 1rem;
+	border-bottom: 0.01px solid #e7e7e7;
+	width: 6.85rem;
+	overflow: hidden;
+}
+
+section div span {
+	width: 1.69rem;
+	float: left;
+	line-height: 1rem;
+	font-size: 0.32rem;
+	color: #333333;
+}
+
+section div input {
+	line-height: 1rem;
+	color: #999999;
+	font-size: 0.32rem;
+	width: 5.14rem;
+	float: left;
+}
+
+a{ width: 6.85rem;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.89rem;
+	margin: 0.32rem auto auto auto;
+	display: block;
+	color: #d03b35;
+}
+a[name=firstA]{color: #FFFFFF; background: #d03b35;}
