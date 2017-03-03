@@ -1,0 +1,169 @@
+body {
+    background: #fff;
+}
+
+header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.34rem;
+    background: #d03b35;
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    background: #fff;
+    clear: both;
+    padding-top: 0.19rem;
+}
+
+section div {
+    width: 6.85rem;
+    margin: auto auto 0.21rem auto;
+    border: 1px solid #e5e5e5;
+    padding-bottom: 0.2rem;
+}
+
+section div h3 {
+    background: #e5e5e5;
+    line-height: 0.58rem;
+    font-size: 0.28rem;
+    color: #666666;
+    padding-left: 0.3rem;
+}
+
+section div a {
+    line-height: 0.48rem;
+    background: url(images/add.png) no-repeat 1.48rem center;
+    background-size: auto 100%;
+    width: auto;
+    margin: 0.4rem auto 0.2rem 0;
+    display: block;
+    font-size: 0.32rem;
+    color: #666666;
+    padding-left: 2.2rem;
+    text-align: left;
+}
+
+section p {
+    clear: both;
+    overflow: hidden;
+    margin: 0.14rem auto 0.14rem auto;
+}
+
+section p span {
+    margin-left: 0.26rem;
+    color: #333333;
+    font-size: 0.28rem;
+    width: 1.69rem;
+    float: left;
+}
+
+section p b {
+    width: 4.5rem;
+    color: #333333;
+    font-weight: normal;
+    font-size: 0.28rem;
+    float: left;
+}
+
+.Account {
+    height: 1rem;
+    width: 6.84rem;
+    margin:auto;
+    padding: 0 0.33rem 0 0.33rem;
+}
+
+.Account p,
+.Account b,
+.Account span,
+.Account h3 {
+    line-height: 1rem;
+    font-size: 0.32rem;
+    float: right;
+}
+
+.Account h3 {
+    float: left;
+    color: #666666;
+    font-size: 0.32rem;
+}
+
+.Account p {
+    color: #d03b35;
+    font-weight: bold;
+    margin-right: 0.22rem;
+}
+
+.Account b,
+.Account span {
+    color: #447aac;
+    font-weight: normal;
+    height: 1rem;
+}
+
+.Account b em {
+     margin-right: 0.1rem;
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(images/Recharge.png) no-repeat left;
+    background-size: 100% 100%;
+}
+.Account span em {
+    margin-right: 0.1rem;
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url(images/Refresh.png) no-repeat left;
+    background-size: 100% 100%;
+}
+.Account .Refresh{ margin-right:0.46rem; }
+
+
+
+/*银行信息*/
+
+div.BankInfo {
+    margin: auto auto;
+    width: 7.5rem;
+    padding: 0.1rem 0 0.08rem 0;
+    background: #f3f3f3;
+}
+
+div.BankInfo p {
+    clear: both;
+    padding-left: 0.6rem;
+    height: 0.56rem;
+}
+
+div.BankInfo p span {
+    width: 1.26rem;
+    float: left;
+    line-height: 0.56rem;
+    color: #999999;
+    font-size: 0.32rem;
+}
+
+div.BankInfo p b {
+    float: left;
+    line-height: 0.56rem;
+    color: #666666;
+    font-size: 0.32rem;
+    font-weight: normal;
+}
+
+a {
+    width: 6.85rem;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.89rem;
+    margin: 0.32rem auto auto auto;
+    display: block;
+    color: #d03b35;
+}
+
+a[name=firstA] {
+    color: #FFFFFF;
+    background: #d03b35;
+}
