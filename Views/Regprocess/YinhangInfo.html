@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <title>完善银行信息</title>
 </head>
+<!--公用-->
+<!-- <link href="../../PublicJS/mui/css/mui.min.css" rel="stylesheet" /> -->
 <link rel="stylesheet" href="../../PublicCss/reset.css" />
-<link rel="stylesheet" href="../../Statics/Regprocess/YinhangInfo.css" />
+<script type="text/javascript" src="../../PublicJS/layer_mobile/layer.js"></script>
 <script type="text/javascript" src="../../PublicJS/resizerem.js"></script>
 
+<link href="../../PublicJS/mui/css/mui.picker.css" rel="stylesheet" />
+<link href="../../PublicJS/mui/css/mui.poppicker.css" rel="stylesheet" />
+<!-- 本页面 -->
+<link rel="stylesheet" href="../../Statics/Regprocess/YinhangInfo.css" />
+
 <body>
-    <header>完善银行信息<a href="ZhuceInfo.html"></a></header>
+    <header>完善银行信息
+        <a href="ZhuceInfo.html"></a>
+    </header>
     <section>
         <div><span>银行</span>
-            <input placeholder="请选择银行" type="text" />
+            <input placeholder="请选择银行" id='showUserPicker' readonly="readonly" value='' type="text" />
         </div>
         <div><span>支行</span>
             <input placeholder="请输入支行名称" type="text" />
@@ -24,9 +33,60 @@
         </div>
         <div><span>持卡人</span>
             <input placeholder="请输入持卡人" type="text" />
-        </div> 
+        </div>
     </section>
     <a href="javascript:" name="firstA">保存</a>
 </body>
+<script src="../../PublicJS/mui/js/mui.min.js"></script>
+<script src="../../PublicJS/mui/js/mui.picker.js"></script>
+<script src="../../PublicJS/mui/js/mui.poppicker.js"></script>
+<script>
+(function($, doc) {
+    $.ready(function() {
+        //普通示例
+        var userPicker = new $.PopPicker();
+        userPicker.setData([{
+            value: 'ywj',
+            text: '董事长 叶文洁'
+        }, {
+            value: 'aaa',
+            text: '总经理 艾AA'
+        }, {
+            value: 'lj',
+            text: '罗辑'
+        }, {
+            value: 'ymt',
+            text: '云天明'
+        }, {
+            value: 'shq',
+            text: '史强'
+        }, {
+            value: 'zhbh',
+            text: '章北海'
+        }, {
+            value: 'zhy',
+            text: '庄颜'
+        }, {
+            value: 'gyf',
+            text: '关一帆'
+        }, {
+            value: 'zhz',
+            text: '智子'
+        }, {
+            value: 'gezh',
+            text: '歌者'
+        }]);
+        var showUserPickerButton = doc.getElementById('showUserPicker');
+        var userResult = doc.getElementById('showUserPicker');
+        showUserPickerButton.addEventListener('tap', function(event) {
+            userPicker.show(function(items) {
+                userResult.value = items[0].text
+                //返回 false 可以阻止选择框的关闭
+                //return false;
+            });
+        }, false);
+    });
+})(mui, document);
+</script>
 
 </html>
