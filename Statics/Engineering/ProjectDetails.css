@@ -1,0 +1,129 @@
+body,
+html {
+    background: #f3f3f3;
+}
+
+header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.34rem;
+    background: #d03b35;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    display: inline-block;
+    left: 0.27rem;
+    top: 0.20rem;
+    width: 0.2rem;
+    height: 0.41rem;
+    background: url(images/Return.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+article {
+    clear: both;
+    padding: 0rem 0.24rem;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+article div {
+    clear: both;
+    overflow: hidden;
+    padding: 0.35rem 0 0.35rem 0;
+    border-bottom: 1px solid #dcdcdc
+}
+
+article div span {
+    float: left;
+    width: 1.8rem;
+    color: #999999;
+    font-size: 0.32rem;
+}
+
+article div p {
+    float: left;
+    color: #666666;
+    font-size: 0.32rem;
+    width: 5.1rem;
+}
+
+article div p b {
+    float: left;
+    font-weight: inherit;
+    color: #666666;
+    font-size: 0.32rem;
+}
+
+article div p b.light {
+    color: #d93932;
+}
+
+
+/*article div p a{float: right;font-weight: inherit;color: #2883d7; font-size: 0.32rem;}
+*/
+
+
+/*请上传工程信息的相关图片*/
+
+.UploadPic {
+    clear: both;
+    background: #ffffff;
+    padding: 0rem 0.24rem 0.3rem 0.24rem
+}
+
+.UploadPic h3 {
+    line-height: 0.99rem;
+    color: #666666;
+    font-style: 0.32rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.UploadPic div {
+    overflow: hidden;
+    clear: both;
+    padding-top: 0.26rem;
+    padding-bottom: 0.24rem;
+}
+
+.UploadPic div figure {
+    width: 2.26rem;
+    height: 2.26rem;
+    position: relative;
+    float: left;
+    margin-right: 0.12rem;
+    margin-top: 0.12rem;
+}
+.UploadPic div figure:nth-child(n+3){
+     margin-right: 0;
+}
+
+.UploadPic div figure img {
+    width: 2.26rem;
+    height: 2.26rem;
+}
+
+.UploadPic div figure em {
+    width: 0.36rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0.39rem;
+    background: url(images/delete.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.UploadPic a[name=firstA] {
+    width: 6.85rem;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.89rem;
+    margin: 0rem auto auto auto;
+    display: block;
+    color: #FFFFFF;
+    background: #d03b35;
+}

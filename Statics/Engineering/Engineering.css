@@ -1,0 +1,51 @@
+body,html{ background: #f3f3f3;}
+header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.34rem;
+    background: #d03b35;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    display: inline-block;
+    left: 0.24rem;
+    top: 0.28rem;
+    width: 0.31rem;
+    height: 0.31rem;
+    background: url(images/home_add.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+header a:last-child {
+    width: 0.27rem;
+    height: 0.31rem;
+    left: inherit;
+    background: url(images/home_user.png) no-repeat left;
+    background-size: 100% 100%;
+    right: 0.24rem;
+    top: 0.28rem;
+}
+/*暂无工程*/
+.NoEngineering { 
+    width: 3.36rem;
+    height: 2.57rem;
+    background: url(images/NoEngineering.png) no-repeat left;
+    background-size: 100% 100%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.68rem;
+    margin-top: -1.28rem;
+}
+/*工程列表*/
+article{clear:both; padding:0.24rem; margin-bottom: 20px; background: #FFF;}
+article div{clear:both; margin-top:0.2rem; overflow:hidden;}
+article div span{ float: left; width: 1.6rem; color: #999999; font-size: 0.32rem;}
+article div p{float:left; color: #666666; font-size: 0.32rem; width: 5.38rem;}
+article div p b{float: left;font-weight: inherit;color: #666666; font-size: 0.32rem;}
+article div p b.Nopay{ color:#d93932;}
+article div p a{float: right;font-weight: inherit;color: #2883d7; font-size: 0.32rem;}

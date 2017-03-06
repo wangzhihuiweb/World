@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>新建工程/工程订单修改</title>
+</head>
+<link rel="stylesheet" href="../../PublicCss/reset.css" />
+<link rel="stylesheet" href="../../Statics/Engineering/NewProject.css" />
+<script type="text/javascript" src="../../PublicJS/layer_mobile/layer.js"></script>
+<script type="text/javascript" src="../../PublicJS/resizerem.js"></script>
+
+<body>
+    <header>新建工程/工程订单修改
+        <a href="index.html"></a>
+    </header>
+
+    <article>
+        <div class='EditAddress'>
+           <span>工程地址</span>  
+           <b onclick="window.location.href ='ProjectAddress.html'"><em></em>编辑</b>
+          <!--  <p>北京市丰台区花XX乡镇XX村XX街道XX号北京市丰台区花XX乡镇XX村XX街道XX号</p> -->
+        </div>
+        
+    </article>
+    <article>
+        <div>
+            <span>联系人姓名</span>
+            <input type="text" placeholder="请输入联系人姓名">
+        </div>
+        <div>
+            <span>联系人电话</span>
+            <input type="number" placeholder="请输入联系人电话">
+        </div>
+        <div>
+            <span>邮编</span>
+            <input type="text" placeholder="请输入邮编">
+        </div>
+        <div>
+            <span>工程平米数</span>
+            <input type="number" placeholder="请输入工程平米数">
+        </div>
+    </article>
+    <!-- 请上传工程信息的相关图片 -->
+    <div class='UploadPic'>
+        <h3>请上传工程信息的相关图片</h3>
+        <div>
+            <figure>
+                <em></em>
+                <img src="../../Statics/Engineering/images/pic.png" alt="pic" title="" />
+            </figure>
+             <figure>
+              <em></em>
+                <img src="../../Statics/Engineering/images/pic.png" alt="pic" title="" />
+            </figure>
+            <figure>
+             <em></em>
+                <img src="../../Statics/Engineering/images/pic.png" alt="pic" title="" />
+            </figure>
+             <figure>
+              <em></em>
+                <img src="../../Statics/Engineering/images/pic.png" alt="pic" title="" />
+            </figure>
+            <figure>
+                <img src="../../Statics/Engineering/images/project_add.png" alt="pic" title="" />
+            </figure>
+        </div>     
+    </div>
+
+    <div class='Account OrderAmount'>
+        <h3>订单金额</h3>
+        <span class='Calculation'><em></em>计算/重新计算</span>
+        <p>￥0.00</p>    
+    </div>
+    <div class='Account'>
+        <h3>账户余额</h3>
+        <b class='Recharge'><em></em>充值</b>
+        <span class='Refresh'><em></em>刷新</span>
+        <p>￥0.00</p>    
+    </div>
+    <div class='BankInfo'>
+        <p><span>银行</span><b>中国建设银行</b></p>
+        <p><span>分行</span><b>江西省南昌市安逸格林郡支行</b></p>
+        <p><span>卡号</span><b>6217  0020  2003  0747  943</b></p>
+        <p><span>持卡人</span><b>郭芬</b></p>
+    </div>
+    <footer>
+        <a href="javascript:">支付订单</a>
+        <a href="javascript:" class='nopay'>保存订单，暂不支付</a>
+    </footer>
+</body>
+
+</html>
