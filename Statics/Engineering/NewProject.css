@@ -1,0 +1,296 @@
+body,
+html {
+    background: #f3f3f3;
+}
+
+header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.34rem;
+    background: #d03b35;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    display: inline-block;
+    left: 0.27rem;
+    top: 0.20rem;
+    width: 0.2rem;
+    height: 0.41rem;
+    background: url(images/Return.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+article {
+    clear: both;
+    padding: 0rem 0.24rem;
+    margin-bottom: 0.16rem;
+    background: #FFF;
+}
+
+article div {
+    clear: both;
+    overflow: hidden;
+    padding: 0.30rem 0 0.30rem 0;
+    border-bottom: 1px solid #dcdcdc
+}
+
+article div.EditAddress {
+    border-bottom: none;
+}
+
+article div.EditAddress b {
+    position: relative;
+    float: right;
+    color: #447aac;
+    font-weight: inherit;
+    font-size:0.32rem;
+}
+
+article div.EditAddress b em {
+    position: relative;
+    display:inline-block;
+    margin-right: 0.15rem;
+    /*top: 0.02rem;*/
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url(images/project_revise.png) no-repeat left;
+    background-size: 100% 100%;
+}
+article div.EditAddress p{clear:both; color: #666666; font-size: 0.32rem; margin-top:0.8rem; padding-top:0.2rem;  border-top: 1px solid #dcdcdc; }
+
+article div:last-child {
+    border-bottom: none;
+}
+
+article div span {
+    float: left;
+    width: 1.8rem;
+    color: #666666;
+    font-size: 0.32rem;
+}
+
+article div input {
+    float: left;
+    color: #999999;
+    font-size: 0.32rem;
+    width: 5.1rem;
+}
+
+article div p b {
+    float: left;
+    font-weight: inherit;
+    color: #666666;
+    font-size: 0.32rem;
+}
+
+article div p b.light {
+    color: #d93932;
+}
+
+
+/*article div p a{float: right;font-weight: inherit;color: #2883d7; font-size: 0.32rem;}
+*/
+
+
+/*请上传工程信息的相关图片*/
+
+.UploadPic {
+    clear: both;
+    background: #ffffff;
+    padding: 0rem 0.24rem 0.3rem 0.24rem
+}
+
+.UploadPic h3 {
+    line-height: 0.99rem;
+    color: #666666;
+    font-size: 0.32rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.UploadPic div {
+    overflow: hidden;
+    clear: both;
+    padding-top: 0.26rem;
+    padding-bottom: 0.24rem;
+}
+
+.UploadPic div figure {
+    width: 2.26rem;
+    height: 2.26rem;
+    position: relative;
+    float: left;
+    margin-right: 0.12rem;
+    margin-top: 0.12rem;
+}
+
+.UploadPic div figure:nth-child(n+3) {
+    margin-right: 0;
+}
+
+.UploadPic div figure img {
+    width: 2.26rem;
+    height: 2.26rem;
+}
+
+.UploadPic div figure em {
+    width: 0.36rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0.39rem;
+    background: url(images/delete.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.UploadPic a[name=firstA] {
+    width: 6.85rem;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.89rem;
+    margin: 0rem auto auto auto;
+    display: block;
+    color: #FFFFFF;
+    background: #d03b35;
+}
+
+
+/*账户余额*/
+
+.Account {
+    height: 1rem;
+    width: 6.84rem;
+    margin: auto;
+    background: #ffffff;
+    padding: 0 0.33rem 0 0.33rem;
+}
+
+.Account p,
+.Account b,
+.Account span,
+.Account h3 {
+    line-height: 1rem;
+    font-size: 0.32rem;
+    float: right;
+}
+
+.Account h3 {
+    float: left;
+    color: #666666;
+    font-size: 0.32rem;
+}
+
+.Account p {
+    color: #d03b35;
+    font-weight: bold;
+    margin-right: 0.22rem;
+}
+
+.Account b,
+.Account span {
+    color: #447aac;
+    font-weight: normal;
+    height: 1rem;
+}
+
+.Account b em {
+    margin-right: 0.1rem;
+    display: inline-block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url(images/Recharge.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+.Account span em {
+    margin-right: 0.1rem;
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url(images/Refresh.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+.Account .Refresh {
+    margin-right: 0.46rem;
+}
+
+
+/*订单金额*/
+
+.OrderAmount {
+    margin-top: 0.29rem;
+    border-bottom: 1px solid #dcdcdc
+}
+
+.OrderAmount span.Calculation {
+    margin-right: 1.5rem;
+}
+
+.OrderAmount span.Calculation em {
+    margin-right: 0.1rem;
+    position: relative;
+    top: 0.03rem;
+    /*margin-top: 0.2rem;*/
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.25rem;
+    background: url(images/Calculation.png) no-repeat left center;
+    background-size: 100% 100%;
+}
+
+
+/*银行信息*/
+
+div.BankInfo {
+    margin: auto auto;
+    width: 7.5rem;
+    padding: 0.1rem 0 0.08rem 0;
+    background: #f3f3f3;
+}
+
+div.BankInfo p {
+    clear: both;
+    padding-left: 0.6rem;
+    height: 0.56rem;
+}
+
+div.BankInfo p span {
+    width: 1.26rem;
+    float: left;
+    line-height: 0.56rem;
+    color: #999999;
+    font-size: 0.32rem;
+}
+
+div.BankInfo p b {
+    float: left;
+    line-height: 0.56rem;
+    color: #666666;
+    font-size: 0.32rem;
+    font-weight: normal;
+}
+
+footer {
+    padding: 0.22rem 0 0.18rem 0;
+    background: #ffffff;
+}
+
+footer a {
+    width: 7rem;
+    line-height: 0.88rem;
+    color: #ffffff;
+    font-size: 0.34rem;
+    text-align: center;
+    background: #d03b35;
+    display: block;
+    margin: 0.08rem auto auto auto;
+}
+
+footer a.nopay {
+    background: #ffffff;
+    color: #d03b35
+}
