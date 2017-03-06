@@ -37,4 +37,20 @@ p{word-break:break-all;word-wrap:break-word;}
 h1,h2,h3,h4,h5,h6,strong,i,em,address, caption, cite, code, dfn, th, var{font-weight:normal;font-style:normal;}
 fieldset, img{border:none;display:block;}
 /*去除长按a链接弹框*/
-html,body{-webkit-touch-callout:none;}
+html,body{-webkit-touch-callout:none; background: #fff;}
+/*点击按钮的三种样式*/
+/*按钮不可点击状态*/
+a.Nonclick{
+	background: #dcdcdc;
+	color: #ffffff;
+}
+/*按钮点击状态*/
+a.Clickstate{
+	background: #b1302b;
+	color: #ffffff;
+}
+/*按钮默认状态*/
+a.Defaultstate{
+	background: #d03b35;
+	color: #ffffff;
+}
