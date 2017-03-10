@@ -1,0 +1,50 @@
+html,body{background: #f3f3f3;}
+header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.34rem;
+    background: #d03b35;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    display: inline-block;
+    left: 0.27rem;
+    top: 0.20rem;
+    width: 0.2rem;
+    height: 0.41rem;
+    background: url(images/Return.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+section {
+    padding: 0 0.24rem;
+    clear: both;
+    background: #ffffff;
+    margin-bottom:0.2rem;
+}
+
+section div {
+    padding: 0.35rem 0;
+    border-bottom: 0.01px solid #e7e7e7;
+    overflow: hidden;
+    color: #666666;
+    font-size: 0.32rem;
+}
+
+section div span {
+    float: left;
+    width: 1.9rem;
+    color: #999999;
+    font-size: 0.32rem;
+}
+
+section div p {
+    float: left;
+    color: #666666;
+    font-size: 0.32rem;
+    width: 4.9rem;
+}

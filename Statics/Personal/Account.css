@@ -1,0 +1,68 @@
+html,
+body {
+    background: #f3f3f3;
+}
+
+header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.34rem;
+    background: #d03b35;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    display: inline-block;
+    left: 0.27rem;
+    top: 0.20rem;
+    width: 0.2rem;
+    height: 0.41rem;
+    background: url(images/Return.png) no-repeat left;
+    background-size: 100% 100%;
+}
+
+section {
+    padding: 0.24rem 0.24rem 0.16rem 0.24rem;
+    clear: both;
+    margin-bottom: 0.2rem;
+    background: #ffffff;
+}
+
+section div,
+section p {
+    clear: both;
+    overflow:hidden;
+}
+
+section div h3 {
+    float: left;
+    color: #666666;
+    font-size: 0.32rem;
+    padding: 0.12rem 0 0.12rem 0;
+}
+
+section div h2 {
+    float: right;
+    color: #d03b35;
+    font-size: 0.32rem;
+    padding: 0.12rem 0 0.12rem 0;
+}
+
+section p span {
+    width: 4.64rem;
+    float: left;
+    color: #999999;
+    font-size: 0.24rem;
+    padding: 0.10rem 0 0.10rem 0;
+}
+
+section p b {
+    float: right;
+    font-weight: inherit;
+    color: #999999;
+    font-size: 0.24rem;
+    padding: 0.10rem 0 0.10rem 0;
+}

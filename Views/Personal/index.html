@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>个人中心</title>
+</head>
+<link rel="stylesheet" href="../../PublicCss/reset.css" />
+<link rel="stylesheet" href="../../Statics/Personal/index.css" />
+<script type="text/javascript" src="../../PublicJS/resizerem.js"></script>
+<script type="text/javascript" src="../../PublicJS/layer_mobile/layer.js"></script>
+<script type="text/javascript" src="../../StaticsJS/Personal/index.js"></script>
+
+<body>
+	
+    <header>这里写昵称
+        <a href="../Engineering/index.html"></a>
+    </header>
+    <section>
+        <div>
+            代理商信息
+        </div>
+        <div>
+            <span>编码</span>
+            <p>111</p>
+        </div>
+        <div>
+            <span>姓名</span>
+            <p>张三</p>
+        </div>
+        <div>
+            <span>电话</span>
+            <p>18311033800</p>
+        </div>
+        <div>
+            <span>店铺名称</span>
+            <p>喜谷门窗</p>
+        </div>
+        <div>
+            <span>实体店位置</span>
+            <p>北京市丰台区XX乡XX村XX街XX号北京市丰台区XX乡XX村XX街XX号</p>
+        </div>
+        <div class='MoreInfo'><b onclick="window.location.href ='Agent.html'">更多信息</b></div>
+    </section>
+    <article>
+        <div class='Account'>
+            <h3>账户余额</h3>
+            <b class='Recharge'><em></em>充值</b>
+            <span class='Refresh'><em></em>刷新</span>
+            <p>￥0.00</p>
+        </div>
+        <div class='MoreInfo'><b onclick="window.location.href ='Account.html'">账户明细</b></div>
+    </article>
+    <article>
+        <div class='Account'>
+            <h3>我的收益</h3>
+            <span class=''><em></em>刷新</span>
+            <p>￥0.00</p>
+        </div>
+        <div class='MoreInfo Yesbor'><b onclick='ShowFun("Withdrawals")'>提现</b><b onclick='ShowFun("Transfer")'>转移到账户</b></div>
+        <div class='MoreInfo '><b onclick="window.location.href ='Profit.html'">收益明细</b></div>
+    </article>
+    <footer>
+        <a href="javascript:" name="firstA">退出登录</a>
+    </footer>
+    <!-- 遮罩层 -->
+    <div class='Mask'>
+    
+    </div>
+    <!--提现-->
+    <div class='Cash' id='Withdrawals'>
+        <h3>提现</h3>
+        <aside>
+            <div>
+                <span>提现银行</span>
+                <b>中国建设银行</b>
+            </div>
+            <div>
+                <span>提现账户</span>
+                <b>6217567867383847281</b>
+            </div>
+            <div>
+                <span>持卡人</span>
+                <b>张三</b>
+            </div>
+            <div>
+                <span>金额(元)</span>
+                <input type="text" placeholder="请输入提现金额" name="" id="" value="" />
+            </div>
+            <div name='Cash'>
+                <a href="javascript:">提现</a>
+                <a href="javascript:" class="Nobg" onclick='HideFun("Withdrawals")'>取消</a>
+            </div>
+        </aside>
+    </div>
+    <!--转移到账户-->
+    <div class='Cash' id="Transfer">
+        <h3>转移到账户</h3>
+        <aside>
+            <div>
+                <span>金额(元)</span>
+                <input type="text" placeholder="请输入要转移的金额" name="" id="" value="" />
+            </div>
+            <div name='Cash'>
+                <a href="javascript:">转移</a>
+                <a href="javascript:" class="Nobg" onclick='HideFun("Transfer")'>取消</a>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
